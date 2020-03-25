@@ -116,7 +116,7 @@ router.post('/books', bookController.updateBook);
  * @swagger
  * /books:
  *    put:
- *      description: Insert a book
+ *      description: Update a book
  *      parameters:
  *        - in: body
  *          name: body
@@ -135,7 +135,7 @@ router.put('/books', bookController.insertBook);
  * @swagger
  * /record:
  *    put:
- *      description: Register a book exit or
+ *      description: Register a book entry or exit
  *      parameters:
  *        - in: body
  *          name: body
